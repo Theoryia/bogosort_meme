@@ -13,7 +13,7 @@ function bogosort(input, target, orgin) {
   console.log("bogosorting");
   const startTime = performance.now();
   while (input !== target) {
-    console.log(`${input} (sorting) count: ${count}`);
+    console.log(`${input} (sort) count: ${count}`);
     input = randomizeString(input);
     count = count + 1;
     if (count % 1000000 == 0){
